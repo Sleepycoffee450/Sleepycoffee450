@@ -1,230 +1,1142 @@
 [
-{t:"Absorption",c:"Physiology",d:"The process by which a substance permeates into another — for example, a fluid soaking into a liquid or solid, or a substance passing through the skin into the body."},
-{t:"Acclimatization",c:"Physiology",d:"The gradual adjustment an organism makes to a new climate or environment, such as a change in altitude or temperature."},
-{t:"Acetyl-CoA",c:"Biochemistry",d:"A small molecule central to carbohydrate, protein, and fat metabolism. It ferries an acetyl group into the citric acid cycle, where it is broken down to release energy."},
-{t:"Active Transport",c:"Cell Functions",d:"Movement of molecules against a gradient using energy."},
-{t:"Aerobic",c:"Physiology",d:"Describes an organism or process that requires the presence of oxygen to survive or occur."},
-{t:"Amino acid",c:"Biochemistry",d:"An organic compound bearing both an amine and a carboxylic acid group. Chains of amino acids link together to build proteins."},
-{t:"Anabolism",c:"Cell Functions",d:"Building of complex molecules."},
-{t:"Anaerobic",c:"Physiology",d:"Describes an organism or process that does not require molecular oxygen, and may even be poisoned by it."},
-{t:"Anaphase",c:"Cell Cycle",d:"Sister chromatids separate and move to opposite poles."},
-{t:"Animal",c:"Zoology",d:"A member of the multicellular, eukaryotic kingdom Animalia. Most animals eat organic matter, breathe oxygen, move under their own power, and reproduce sexually."},
-{t:"Animalia",c:"Classification of Cells",d:"Kingdom of multicellular, heterotrophic eukaryotes."},
-{t:"Antibiotic",c:"Microbiology",d:"A drug that kills or slows the growth of bacteria, used to treat or prevent bacterial infection."},
-{t:"Antibody",c:"Cell Functions",d:"Protein that identifies and neutralizes pathogens."},
-{t:"Antigen",c:"Cell Functions",d:"Substance that triggers immune response."},
-{t:"Apoptosis",c:"Cell Functions",d:"Programmed cell death."},
-{t:"Archaea",c:"Microbiology",d:"One of the three great domains of life, alongside Bacteria and Eukaryota — single-celled microbes that often thrive in extreme environments."},
-{t:"Artificial selection",c:"Genetics",d:"The deliberate breeding of plants or animals by humans to favor particular traits, as opposed to natural selection acting without human input."},
-{t:"Asexual reproduction",c:"Genetics",d:"Reproduction from a single parent that produces offspring genetically identical to that parent."},
-{t:"ATP (Adenosine Triphosphate)",c:"Cell Functions",d:"Main energy currency in cells."},
-{t:"Autotroph",c:"Ecology",d:"An organism able to make its own complex organic compounds from simple inorganic substances, usually by capturing energy from sunlight or chemical reactions. Contrast heterotroph."},
-{t:"Bacteria",c:"Microbiology",d:"A vast group of single-celled, prokaryotic microbes that lack a true nucleus, forming one of the three fundamental domains of life."},
-{t:"Bacteriophage",c:"Microbiology",d:"A virus that specifically infects and reproduces inside bacteria."},
-{t:"Binary fission",c:"Cell Biology",d:"The way a single prokaryotic cell splits into two genetically identical daughter cells."},
-{t:"Binomial nomenclature",c:"Taxonomy",d:"The two-part Latinized naming system used to formally classify every species, such as Homo sapiens."},
-{t:"Biochemistry",c:"Biochemistry",d:"The branch of science studying the chemical compounds, reactions, and processes occurring inside living organisms."},
-{t:"Biodiversity",c:"Ecology",d:"The total variety of life found across a habitat, ecosystem, or the entire planet."},
-{t:"Biogeography",c:"Ecology",d:"The study of how species and ecosystems are distributed across geographic space and through geological time."},
-{t:"Bioinformatics",c:"Genetics",d:"The use of computational tools to store, organize, and analyze large biological datasets such as genome sequences."},
-{t:"Biome",c:"Ecology",d:"A large-scale ecological region, such as a desert or rainforest, defined by its climate and the plant and animal communities adapted to it."},
-{t:"Botany",c:"Botany",d:"The scientific study of plants, including their structure, growth, and classification."},
-{t:"Calvin cycle",c:"Botany",d:"The light-independent stage of photosynthesis, occurring in the chloroplast, in which carbon dioxide is converted into sugars using energy captured earlier as ATP and NADPH."},
-{t:"Cancer",c:"Cell Cycle",d:"Uncontrolled cell division due to cycle malfunction."},
-{t:"Capsule",c:"Classification of Cells",d:"Outer coating in bacteria for protection."},
-{t:"Carbon fixation",c:"Biochemistry",d:"The conversion of inorganic carbon dioxide into organic compounds by living organisms, as happens in photosynthesis."},
-{t:"Catabolism",c:"Cell Functions",d:"Breakdown of molecules for energy."},
-{t:"Catalyst",c:"Cell Functions",d:"Substance that accelerates reactions."},
-{t:"Cell",c:"Cell Biology",d:"The basic structural and functional unit of every living organism — the smallest unit that can be considered alive on its own."},
-{t:"Cell cycle",c:"Cell Biology",d:"The ordered sequence of growth and division stages a cell passes through to duplicate its genetic material and split into daughter cells."},
-{t:"Cell membrane",c:"Cell Biology",d:"The thin, semipermeable barrier enclosing a cell's cytoplasm, controlling what enters and leaves."},
-{t:"Cell Metabolism",c:"Cell Functions",d:"Sum of all energy transformations in a cell."},
-{t:"Cell Plate",c:"Cell Cycle",d:"Structure in plant cells that forms a new cell wall during division."},
-{t:"Cell Signaling",c:"Cell Functions",d:"Communication between cells."},
-{t:"Cell theory",c:"Cell Biology",d:"The foundational idea that all living things are composed of one or more cells."},
-{t:"Cell wall",c:"Cell Biology",d:"A rigid outer layer found beyond the cell membrane in plants, fungi, and most prokaryotes, providing structural support."},
-{t:"Cellular Communication",c:"Cell Functions",d:"Exchange of information between cells."},
-{t:"Cellular Differentiation",c:"Cell Functions",d:"Cells become specialized for functions."},
-{t:"Cellular Respiration",c:"Cell Functions",d:"Breakdown of glucose to produce energy."},
-{t:"Central dogma of molecular biology",c:"Genetics",d:"The principle describing how genetic information generally flows within a cell — often summarized as 'DNA makes RNA, and RNA makes protein.'"},
-{t:"Centromere",c:"Cell Cycle",d:"Region where sister chromatids are joined."},
-{t:"Centrosome",c:"Cell Cycle",d:"Organizing center for spindle fibers."},
-{t:"Checkpoint",c:"Cell Cycle",d:"Control point in the cell cycle to ensure accuracy."},
-{t:"Checkpoint Protein",c:"Cell Cycle",d:"Protein controlling cycle progression."},
-{t:"Chlorophyll",c:"Botany",d:"The green pigment in plants, algae, and cyanobacteria that captures light energy to drive photosynthesis."},
-{t:"Chloroplast",c:"Cell Biology",d:"The specialized organelle in plant and algal cells where photosynthesis takes place."},
-{t:"Chromatid",c:"Cell Cycle",d:"One-half of a duplicated chromosome."},
-{t:"Chromatin",c:"Cell Cycle",d:"DNA-protein complex that condenses into chromosomes."},
-{t:"Chromosome",c:"Genetics",d:"A tightly coiled strand of DNA found in the cell nucleus that carries an organism's genes in linear order."},
-{t:"Citric acid cycle",c:"Biochemistry",d:"Also called the Krebs cycle — a chain of reactions that oxidizes nutrient-derived molecules to release usable chemical energy in nearly all aerobic organisms."},
-{t:"Cleavage Furrow",c:"Cell Cycle",d:"Indentation in animal cells during cytokinesis."},
-{t:"Clonal selection",c:"Immunology",d:"The theory explaining how immune cells multiply in response to a specific invading antigen, forming the basis of the adaptive immune response."},
-{t:"Conservation biology",c:"Ecology",d:"The study of Earth's biodiversity aimed at protecting species, habitats, and ecosystems from extinction and degradation."},
-{t:"Convergent evolution",c:"Evolution",d:"The independent evolution of similar traits in unrelated species, often because they face similar environmental pressures."},
-{t:"Crossing Over",c:"Cell Cycle",d:"Exchange of genetic material between homologous chromosomes."},
-{t:"Cyclin",c:"Cell Cycle",d:"Protein that regulates the cell cycle."},
-{t:"Cyclin-dependent Kinase (CDK)",c:"Cell Cycle",d:"Enzyme activated by cyclin for cycle control."},
-{t:"Cytokinesis",c:"Cell Cycle",d:"Division of the cytoplasm into two daughter cells."},
-{t:"Cytoplasm",c:"Cell Biology",d:"Everything inside a cell's membrane except the nucleus — a gel-like fluid holding the organelles and dissolved molecules."},
-{t:"Cytoskeleton",c:"Cell Biology",d:"A dynamic internal scaffold of protein filaments that gives a cell its shape and enables movement and internal transport."},
-{t:"Darwinian fitness",c:"Evolution",d:"A measure of an organism's genetic contribution to the next generation, typically judged by how many offspring survive to reproduce."},
-{t:"Decomposer",c:"Ecology",d:"An organism, such as many fungi and bacteria, that breaks down dead organic material and recycles its nutrients back into the ecosystem."},
-{t:"Denaturation",c:"Biochemistry",d:"The unfolding or structural collapse of a protein or nucleic acid, often triggered by heat, extreme pH, or harsh chemicals."},
-{t:"Deoxyribonucleic acid (DNA)",c:"Genetics",d:"The double-stranded molecule that stores hereditary information in nearly all living organisms, built from four repeating chemical letters: A, C, G, and T."},
-{t:"Developmental biology",c:"Cell Biology",d:"The study of how organisms grow, develop, and change from a single fertilized cell into a mature form."},
-{t:"Diffusion",c:"Cell Functions",d:"Movement of molecules from high to low concentration."},
-{t:"Diploid",c:"Cell Cycle",d:"Having two sets of chromosomes (2n)."},
-{t:"DNA",c:"Classification of Cells",d:"Genetic material of organisms."},
-{t:"DNA Polymerase",c:"Cell Cycle",d:"Enzyme that adds nucleotides to replicate DNA."},
-{t:"DNA Replication",c:"Cell Cycle",d:"Process of making an identical copy of DNA."},
-{t:"Ecology",c:"Ecology",d:"The scientific study of how organisms interact with each other and with their physical environment."},
-{t:"Ecosystem",c:"Ecology",d:"A community of living organisms interacting with the non-living parts of their environment as a single functioning system."},
-{t:"Ectotherm",c:"Physiology",d:"An organism, often called 'cold-blooded,' whose body temperature is largely set by its surrounding environment rather than internal heat production. Contrast endotherm."},
-{t:"Electron transport chain",c:"Biochemistry",d:"A series of protein complexes in the mitochondria that pass electrons along a chain to power the production of ATP, the cell's main energy currency."},
-{t:"Embryo",c:"Developmental Biology",d:"The early developmental stage of a multicellular organism, beginning shortly after fertilization."},
-{t:"Endangered species",c:"Ecology",d:"A species at serious risk of extinction, often due to habitat loss, hunting, disease, or climate change."},
-{t:"Endemism",c:"Ecology",d:"The condition of a species being found naturally in only one specific geographic area and nowhere else."},
-{t:"Endocrine system",c:"Physiology",d:"The network of glands that release hormones directly into the bloodstream to regulate growth, metabolism, and other body functions."},
-{t:"Endocytosis",c:"Cell Functions",d:"Process of taking materials into the cell."},
-{t:"Endoplasmic Reticulum",c:"Classification of Cells",d:"Network for protein and lipid synthesis."},
-{t:"Endosymbiotic theory",c:"Evolution",d:"The theory that mitochondria and chloroplasts originated as free-living prokaryotes engulfed by an ancestral cell, eventually becoming permanent internal partners."},
-{t:"Endotherm",c:"Physiology",d:"An organism, often called 'warm-blooded,' that generates and regulates its own internal body heat regardless of the surrounding temperature. Contrast ectotherm."},
-{t:"Entomology",c:"Zoology",d:"The scientific study of insects."},
-{t:"Enzyme",c:"Biochemistry",d:"A protein that speeds up chemical reactions inside cells without itself being consumed, making metabolism fast enough to sustain life."},
-{t:"Epidemiology",c:"Ecology",d:"The study of how diseases spread through populations, including their causes, patterns, and prevention."},
-{t:"Epigenetics",c:"Genetics",d:"The study of heritable changes in how genes are expressed that occur without any change to the underlying DNA sequence itself."},
-{t:"Eukaryote",c:"Cell Biology",d:"An organism whose cells contain a true, membrane-bound nucleus — includes all animals, plants, fungi, and protists. Contrast prokaryote."},
-{t:"Evolution",c:"Evolution",d:"The change in heritable traits of a population across successive generations, driven by mechanisms such as mutation, gene flow, natural selection, and genetic drift."},
-{t:"Exocytosis",c:"Cell Biology",d:"The process by which a cell expels molecules to its exterior by fusing a membrane-bound sac with the cell membrane."},
-{t:"Extinction",c:"Evolution",d:"The permanent disappearance of an entire species or other group of organisms, marked by the death of its last surviving individual."},
-{t:"Extracellular Matrix",c:"Cell Functions",d:"Network outside cells for support."},
-{t:"Facilitated Diffusion",c:"Cell Functions",d:"Diffusion through channel proteins."},
-{t:"Fermentation",c:"Biochemistry",d:"A metabolic process that breaks down sugar for energy without requiring oxygen."},
-{t:"Fertilization",c:"Cell Cycle",d:"Union of egg and sperm."},
-{t:"Fitness landscape",c:"Evolution",d:"A conceptual map relating genetic variation to reproductive success, used to visualize how populations evolve toward more favorable traits over time."},
-{t:"Flagellum",c:"Classification of Cells",d:"Tail-like structure for movement."},
-{t:"Founder effect",c:"Evolution",d:"The loss of genetic diversity that occurs when a new population is established by only a small number of founding individuals."},
-{t:"Fungi",c:"Classification of Cells",d:"Eukaryotic kingdom with chitin cell walls."},
-{t:"G0 Phase",c:"Cell Cycle",d:"Resting phase where cells stop dividing."},
-{t:"G1 Phase",c:"Cell Cycle",d:"Part of interphase where the cell grows and performs normal functions."},
-{t:"G2 Phase",c:"Cell Cycle",d:"Final phase of interphase; cell prepares for mitosis."},
-{t:"Gamete",c:"Genetics",d:"A reproductive cell — such as a sperm or egg — that carries half the genetic material needed to form a new offspring when it fuses with another gamete."},
-{t:"Gametes",c:"Cell Cycle",d:"Sex cells (egg and sperm)."},
-{t:"Gene",c:"Genetics",d:"A segment of DNA that carries the instructions to build a specific RNA or protein product, and the basic hereditary unit passed from parent to offspring."},
-{t:"Gene Expression",c:"Cell Functions",d:"Conversion of DNA information into traits."},
-{t:"Gene pool",c:"Genetics",d:"The complete collection of genes and their variants present within a population or species."},
-{t:"Genetic drift",c:"Evolution",d:"Random chance-driven changes in how common a particular gene variant is within a population, unrelated to whether that variant is helpful or harmful."},
-{t:"Genetics",c:"Genetics",d:"The scientific study of heredity and how traits are passed from one generation to the next."},
-{t:"Genome",c:"Genetics",d:"The complete set of genetic material contained within an organism's cells."},
-{t:"Genotype",c:"Genetics",d:"The specific genetic makeup of an organism that underlies and helps determine its observable traits, or phenotype."},
-{t:"Golgi Apparatus",c:"Classification of Cells",d:"Modifies and packages proteins."},
-{t:"Growth Factor",c:"Cell Cycle",d:"Signal that stimulates cell division."},
-{t:"Habitat",c:"Ecology",d:"The natural physical environment in which a particular organism typically lives and thrives."},
-{t:"Haploid",c:"Cell Cycle",d:"Having one set of chromosomes (n)."},
-{t:"Helicase",c:"Cell Cycle",d:"Enzyme that unwinds the DNA strand."},
-{t:"Heredity",c:"Genetics",d:"The passing of traits from parents to offspring, occurring through either sexual or asexual reproduction."},
-{t:"Heterotroph",c:"Ecology",d:"An organism that cannot make its own food and must consume other organisms or organic matter for energy. Contrast autotroph."},
-{t:"Homeostasis",c:"Physiology",d:"An organism's ability to maintain a stable internal environment — such as temperature or pH — despite changes in outside conditions."},
-{t:"Homologous Chromosomes",c:"Cell Cycle",d:"Pair of chromosomes with the same genes."},
-{t:"Hormone",c:"Physiology",d:"A signaling molecule, produced by a gland, that travels through the bloodstream to regulate the activity of distant organs and tissues."},
-{t:"Host Cell",c:"Classification of Cells",d:"Cell infected by a microorganism."},
-{t:"Hypertonic Solution",c:"Cell Functions",d:"Solution with higher solute concentration."},
-{t:"Hypotonic Solution",c:"Cell Functions",d:"Solution with lower solute concentration."},
-{t:"Independent Assortment",c:"Cell Cycle",d:"Random distribution of chromosomes in meiosis."},
-{t:"Interphase",c:"Cell Cycle",d:"Longest phase of the cell cycle where the cell grows and replicates DNA."},
-{t:"Invertebrate",c:"Zoology",d:"An animal that lacks a backbone, a category that includes insects, mollusks, and worms among many others. Contrast vertebrate."},
-{t:"Ion Channel",c:"Cell Functions",d:"Protein allowing ions to pass through membranes."},
-{t:"Isotonic Solution",c:"Cell Functions",d:"Solution with equal solute concentration."},
-{t:"Kinetochore",c:"Cell Cycle",d:"Protein complex where spindle fibers attach."},
-{t:"Kingdom",c:"Classification of Cells",d:"Highest classification of organisms."},
-{t:"Larva",c:"Zoology",d:"A distinct juvenile stage that many animals — such as insects and amphibians — pass through before metamorphosing into their adult form."},
-{t:"Life cycle",c:"Developmental Biology",d:"The full sequence of developmental stages an organism passes through, from formation to reproduction and eventually to the birth of the next generation."},
-{t:"Lysosome",c:"Cell Functions",d:"Contains enzymes for digestion."},
-{t:"Macroevolution",c:"Evolution",d:"Large-scale evolutionary change occurring at or above the level of species, in contrast with the smaller, generation-to-generation shifts studied in microevolution."},
-{t:"Meiosis",c:"Cell Biology",d:"A specialized form of cell division that halves the chromosome number to produce genetically unique reproductive cells, such as eggs and sperm."},
-{t:"Membrane Transport",c:"Cell Functions",d:"Movement of substances across the cell membrane."},
-{t:"Metabolism",c:"Biochemistry",d:"The full set of chemical reactions within an organism that convert food into energy and building blocks for growth, repair, and function."},
-{t:"Metamorphosis",c:"Zoology",d:"A dramatic physical transformation an organism undergoes during development, such as a caterpillar becoming a butterfly."},
-{t:"Metaphase",c:"Cell Cycle",d:"Chromosomes line up at the cell's equatorial plane."},
-{t:"Metastasis",c:"Cell Cycle",d:"Spread of cancer cells to other body parts."},
-{t:"Microbiology",c:"Microbiology",d:"The branch of biology devoted to studying microscopic organisms, including bacteria, viruses, fungi, and protozoa."},
-{t:"Microorganism",c:"Classification of Cells",d:"Extremely small living organism."},
-{t:"Mitochondria",c:"Cell Biology",d:"The organelle often called the cell's 'powerhouse,' where aerobic respiration generates most of a cell's usable energy."},
-{t:"Mitochondrion",c:"Cell Functions",d:"Organelle that produces ATP."},
-{t:"Mitosis",c:"Cell Biology",d:"The stage of the cell cycle in which a cell's duplicated chromosomes separate into two identical nuclei, ultimately producing two genetically identical daughter cells."},
-{t:"Mitotic Phase",c:"Cell Cycle",d:"Period of cell division that includes mitosis and cytokinesis."},
-{t:"Molecular biology",c:"Genetics",d:"The branch of biology concerned with the molecular basis of biological activity, particularly the structure and function of DNA, RNA, and proteins."},
-{t:"Monera",c:"Classification of Cells",d:"Kingdom of unicellular prokaryotes."},
-{t:"Multicellular",c:"Classification of Cells",d:"Made up of many cells working together."},
-{t:"Mutation",c:"Genetics",d:"A change in a DNA sequence, which can arise spontaneously or from exposure to certain chemicals or radiation, and can be neutral, harmful, or beneficial."},
-{t:"Mycology",c:"Botany",d:"The scientific study of fungi, including their genetics, classification, and uses."},
-{t:"Natural selection",c:"Evolution",d:"The process by which organisms with traits better suited to their environment tend to survive and reproduce more successfully, passing those traits on more often."},
-{t:"Neuron",c:"Physiology",d:"A specialized, electrically excitable cell that receives, processes, and transmits information via electrical and chemical signals."},
-{t:"Niche",c:"Ecology",d:"The specific role and set of resource needs an organism occupies within its ecosystem, including how it feeds, shelters, and reproduces."},
-{t:"Nitrogen fixation",c:"Ecology",d:"The natural process, largely carried out by specialized microorganisms, that converts atmospheric nitrogen gas into forms usable by living organisms."},
-{t:"Nuclear Envelope",c:"Cell Cycle",d:"Membrane around the nucleus that breaks during prophase."},
-{t:"Nucleic acid",c:"Biochemistry",d:"A large biomolecule — DNA or RNA — built from repeating nucleotide units, essential for storing and transmitting genetic information."},
-{t:"Nucleoid",c:"Classification of Cells",d:"Region in prokaryotes containing DNA."},
-{t:"Nucleus",c:"Cell Biology",d:"The membrane-bound structure in eukaryotic cells that houses the cell's genetic material and directs its activities."},
-{t:"Organ",c:"Classification of Cells",d:"Structure composed of tissues working together."},
-{t:"Organelle",c:"Cell Biology",d:"A specialized structure within a cell that performs a specific function, such as the mitochondria or chloroplast."},
-{t:"Organelle Membrane",c:"Classification of Cells",d:"Surrounds cell structures."},
-{t:"Organism",c:"Ecology",d:"Any individual living thing, capable of carrying out the processes associated with life."},
-{t:"Osmosis",c:"Cell Biology",d:"The passive movement of water across a semipermeable membrane, from an area of lower solute concentration to one of higher concentration."},
-{t:"Paleontology",c:"Evolution",d:"The scientific study of ancient life through the examination of fossils preserved in Earth's crust."},
-{t:"Parasite",c:"Ecology",d:"An organism that lives on or inside a host organism, drawing nutrients from it, typically to the host's detriment."},
-{t:"Passive Transport",c:"Cell Functions",d:"Movement of substances without energy."},
-{t:"Pathogen",c:"Microbiology",d:"Any agent, such as a virus, bacterium, or fungus, capable of causing disease in a host organism."},
-{t:"Peroxisome",c:"Cell Functions",d:"Breaks down fatty acids and detoxifies."},
-{t:"Phagocytosis",c:"Cell Functions",d:"Type of endocytosis where the cell engulfs solid particles."},
-{t:"Phenotype",c:"Genetics",d:"The observable physical, biochemical, or behavioral traits of an organism, produced by the interaction of its genotype with the environment."},
-{t:"Photosynthesis",c:"Botany",d:"The process by which plants, algae, and some bacteria convert light energy into chemical energy, producing sugars from carbon dioxide and water while releasing oxygen."},
-{t:"Phylogeny",c:"Evolution",d:"The evolutionary history and relatedness of a group of organisms, often represented as a branching tree diagram."},
-{t:"Physiology",c:"Physiology",d:"The branch of biology studying how living organisms and their parts function, including all their physical and chemical processes."},
-{t:"Pili",c:"Classification of Cells",d:"Hair-like structures on bacteria for attachment."},
-{t:"Pinocytosis",c:"Cell Functions",d:"âCell drinkingâ; uptake of liquid."},
-{t:"Plantae",c:"Classification of Cells",d:"Kingdom of multicellular, photosynthetic eukaryotes."},
-{t:"Plasma Membrane",c:"Classification of Cells",d:"Regulates what enters and exits the cell."},
-{t:"Pollination",c:"Botany",d:"The transfer of pollen from the male to the female part of a flower, a necessary step toward plant fertilization and seed production."},
-{t:"Population",c:"Ecology",d:"A group of organisms of the same species living in the same geographic area and capable of interbreeding with one another."},
-{t:"Predation",c:"Ecology",d:"An interaction in which one organism, the predator, hunts and consumes another, the prey."},
-{t:"Prokaryote",c:"Cell Biology",d:"An organism, such as a bacterium, whose cells lack a membrane-bound nucleus. Contrast eukaryote."},
-{t:"Prophase",c:"Cell Cycle",d:"Chromosomes condense and spindle fibers begin to form."},
-{t:"Protein",c:"Biochemistry",d:"A large molecule built from chains of amino acids, serving as a structural component, enzyme, signaling molecule, or transporter within a cell."},
-{t:"Protein Synthesis",c:"Cell Functions",d:"Making proteins from DNA instructions."},
-{t:"Protista",c:"Classification of Cells",d:"Kingdom of mostly unicellular eukaryotes."},
-{t:"Receptor Protein",c:"Cell Functions",d:"Detects and responds to chemical signals."},
-{t:"Recombinant Chromosomes",c:"Cell Cycle",d:"Chromosomes formed after crossing over."},
-{t:"Respiration",c:"Classification of Cells",d:"Process of breaking down glucose for energy."},
-{t:"Ribonucleic acid (RNA)",c:"Genetics",d:"A nucleic acid that carries out several roles in gene expression, including copying genetic instructions from DNA and helping build proteins."},
-{t:"Ribosome",c:"Cell Functions",d:"Organelle responsible for making proteins."},
-{t:"Ribosomes",c:"Classification of Cells",d:"Site of protein synthesis."},
-{t:"RNA",c:"Classification of Cells",d:"Molecule for protein synthesis."},
-{t:"S Phase",c:"Cell Cycle",d:"DNA replication phase of the cell cycle."},
-{t:"Selective Permeability",c:"Cell Functions",d:"Ability of the membrane to choose what enters/exits."},
-{t:"Signal Transduction",c:"Cell Functions",d:"Process of converting signals into cellular responses."},
-{t:"Sister Chromatids",c:"Cell Cycle",d:"Identical copies of a chromosome."},
-{t:"Sodium-Potassium Pump",c:"Cell Functions",d:"Active transport protein moving Naâº and Kâº."},
-{t:"Somatic Cells",c:"Cell Cycle",d:"Body cells that undergo mitosis."},
-{t:"Species",c:"Taxonomy",d:"A group of organisms capable of interbreeding and producing fertile offspring, generally treated as the basic unit of biological classification."},
-{t:"Spindle Fibers",c:"Cell Cycle",d:"Protein structures that move chromosomes during mitosis."},
-{t:"Stem Cell",c:"Cell Functions",d:"Undifferentiated cell that can develop into specialized cells."},
-{t:"Substrate",c:"Cell Functions",d:"Molecule on which an enzyme acts."},
-{t:"Symbiosis",c:"Ecology",d:"A close, long-term biological interaction between two different species, which may benefit both, benefit one while harming the other, or benefit one without affecting the other."},
-{t:"Synapsis",c:"Cell Cycle",d:"Pairing of homologous chromosomes in meiosis."},
-{t:"Taxonomy",c:"Taxonomy",d:"The scientific practice of naming, describing, and classifying organisms into a structured hierarchy of groups."},
-{t:"Telomere",c:"Cell Cycle",d:"Protective chromosome end caps."},
-{t:"Telophase",c:"Cell Cycle",d:"Nuclear envelope re-forms around chromosomes."},
-{t:"Tetrad",c:"Cell Cycle",d:"Group of four chromatids formed during meiosis."},
-{t:"Tissue",c:"Classification of Cells",d:"Group of similar cells performing a function."},
-{t:"Transcription",c:"Cell Functions",d:"Process of copying DNA into mRNA."},
-{t:"Translation",c:"Cell Functions",d:"mRNA is decoded to create proteins."},
-{t:"Trophic level",c:"Ecology",d:"An organism's position in a food chain, such as producer, primary consumer, or top predator, reflecting how energy flows through an ecosystem."},
-{t:"Tumor",c:"Cell Cycle",d:"Mass of uncontrolled dividing cells."},
-{t:"Unicellular",c:"Classification of Cells",d:"Organism made of one cell."},
-{t:"Vaccine",c:"Classification of Cells",d:"Prepares the immune system to fight pathogens."},
-{t:"Vacuole",c:"Cell Functions",d:"Storage organelle for water and nutrients."},
-{t:"Vertebrate",c:"Zoology",d:"An animal possessing a backbone, a group that includes fish, amphibians, reptiles, birds, and mammals. Contrast invertebrate."},
-{t:"Virus",c:"Microbiology",d:"A microscopic infectious agent that can only replicate inside the living cells of a host organism, existing at the boundary between living and non-living matter."},
-{t:"Zoology",c:"Zoology",d:"The branch of biology devoted to the study of animals, their behavior, physiology, and classification."}
+   {
+      "t":"Absorption",
+      "c":"Physiology",
+      "d":"The process by which a substance permeates into another — for example, a fluid soaking into a liquid or solid, or a substance passing through the skin into the body."
+   },
+   {
+      "t":"Acclimatization",
+      "c":"Physiology",
+      "d":"The gradual adjustment an organism makes to a new climate or environment, such as a change in altitude or temperature."
+   },
+   {
+      "t":"Acetyl-CoA",
+      "c":"Biochemistry",
+      "d":"A small molecule central to carbohydrate, protein, and fat metabolism. It ferries an acetyl group into the citric acid cycle, where it is broken down to release energy."
+   },
+   {
+      "t":"Active Transport",
+      "c":"Cell Functions",
+      "d":"Movement of molecules against a gradient using energy."
+   },
+   {
+      "t":"Aerobic",
+      "c":"Physiology",
+      "d":"Describes an organism or process that requires the presence of oxygen to survive or occur."
+   },
+   {
+      "t":"Amino acid",
+      "c":"Biochemistry",
+      "d":"An organic compound bearing both an amine and a carboxylic acid group. Chains of amino acids link together to build proteins."
+   },
+   {
+      "t":"Anabolism",
+      "c":"Cell Functions",
+      "d":"Building of complex molecules."
+   },
+   {
+      "t":"Anaerobic",
+      "c":"Physiology",
+      "d":"Describes an organism or process that does not require molecular oxygen, and may even be poisoned by it."
+   },
+   {
+      "t":"Anaphase",
+      "c":"Cell Cycle",
+      "d":"Sister chromatids separate and move to opposite poles."
+   },
+   {
+      "t":"Animal",
+      "c":"Zoology",
+      "d":"A member of the multicellular, eukaryotic kingdom Animalia. Most animals eat organic matter, breathe oxygen, move under their own power, and reproduce sexually."
+   },
+   {
+      "t":"Animalia",
+      "c":"Classification of Cells",
+      "d":"Kingdom of multicellular, heterotrophic eukaryotes."
+   },
+   {
+      "t":"Antibiotic",
+      "c":"Microbiology",
+      "d":"A drug that kills or slows the growth of bacteria, used to treat or prevent bacterial infection."
+   },
+   {
+      "t":"Antibody",
+      "c":"Cell Functions",
+      "d":"Protein that identifies and neutralizes pathogens."
+   },
+   {
+      "t":"Antigen",
+      "c":"Cell Functions",
+      "d":"Substance that triggers immune response."
+   },
+   {
+      "t":"Apoptosis",
+      "c":"Cell Functions",
+      "d":"Programmed cell death."
+   },
+   {
+      "t":"Archaea",
+      "c":"Microbiology",
+      "d":"One of the three great domains of life, alongside Bacteria and Eukaryota — single-celled microbes that often thrive in extreme environments."
+   },
+   {
+      "t":"Artificial selection",
+      "c":"Genetics",
+      "d":"The deliberate breeding of plants or animals by humans to favor particular traits, as opposed to natural selection acting without human input."
+   },
+   {
+      "t":"Asexual reproduction",
+      "c":"Genetics",
+      "d":"Reproduction from a single parent that produces offspring genetically identical to that parent."
+   },
+   {
+      "t":"ATP (Adenosine Triphosphate)",
+      "c":"Cell Functions",
+      "d":"Main energy currency in cells."
+   },
+   {
+      "t":"Autotroph",
+      "c":"Ecology",
+      "d":"An organism able to make its own complex organic compounds from simple inorganic substances, usually by capturing energy from sunlight or chemical reactions. Contrast heterotroph."
+   },
+   {
+      "t":"Bacteria",
+      "c":"Microbiology",
+      "d":"A vast group of single-celled, prokaryotic microbes that lack a true nucleus, forming one of the three fundamental domains of life."
+   },
+   {
+      "t":"Bacteriophage",
+      "c":"Microbiology",
+      "d":"A virus that specifically infects and reproduces inside bacteria."
+   },
+   {
+      "t":"Binary fission",
+      "c":"Cell Biology",
+      "d":"The way a single prokaryotic cell splits into two genetically identical daughter cells."
+   },
+   {
+      "t":"Binomial nomenclature",
+      "c":"Taxonomy",
+      "d":"The two-part Latinized naming system used to formally classify every species, such as Homo sapiens."
+   },
+   {
+      "t":"Biochemistry",
+      "c":"Biochemistry",
+      "d":"The branch of science studying the chemical compounds, reactions, and processes occurring inside living organisms."
+   },
+   {
+      "t":"Biodiversity",
+      "c":"Ecology",
+      "d":"The total variety of life found across a habitat, ecosystem, or the entire planet."
+   },
+   {
+      "t":"Biogeography",
+      "c":"Ecology",
+      "d":"The study of how species and ecosystems are distributed across geographic space and through geological time."
+   },
+   {
+      "t":"Bioinformatics",
+      "c":"Genetics",
+      "d":"The use of computational tools to store, organize, and analyze large biological datasets such as genome sequences."
+   },
+   {
+      "t":"Biome",
+      "c":"Ecology",
+      "d":"A large-scale ecological region, such as a desert or rainforest, defined by its climate and the plant and animal communities adapted to it."
+   },
+   {
+      "t":"Botany",
+      "c":"Botany",
+      "d":"The scientific study of plants, including their structure, growth, and classification."
+   },
+   {
+      "t":"Calvin cycle",
+      "c":"Botany",
+      "d":"The light-independent stage of photosynthesis, occurring in the chloroplast, in which carbon dioxide is converted into sugars using energy captured earlier as ATP and NADPH."
+   },
+   {
+      "t":"Cancer",
+      "c":"Cell Cycle",
+      "d":"Uncontrolled cell division due to cycle malfunction."
+   },
+   {
+      "t":"Capsule",
+      "c":"Classification of Cells",
+      "d":"Outer coating in bacteria for protection."
+   },
+   {
+      "t":"Carbon fixation",
+      "c":"Biochemistry",
+      "d":"The conversion of inorganic carbon dioxide into organic compounds by living organisms, as happens in photosynthesis."
+   },
+   {
+      "t":"Catabolism",
+      "c":"Cell Functions",
+      "d":"Breakdown of molecules for energy."
+   },
+   {
+      "t":"Catalyst",
+      "c":"Cell Functions",
+      "d":"Substance that accelerates reactions."
+   },
+   {
+      "t":"Cell",
+      "c":"Cell Biology",
+      "d":"The basic structural and functional unit of every living organism — the smallest unit that can be considered alive on its own."
+   },
+   {
+      "t":"Cell cycle",
+      "c":"Cell Biology",
+      "d":"The ordered sequence of growth and division stages a cell passes through to duplicate its genetic material and split into daughter cells."
+   },
+   {
+      "t":"Cell membrane",
+      "c":"Cell Biology",
+      "d":"The thin, semipermeable barrier enclosing a cell's cytoplasm, controlling what enters and leaves."
+   },
+   {
+      "t":"Cell Metabolism",
+      "c":"Cell Functions",
+      "d":"Sum of all energy transformations in a cell."
+   },
+   {
+      "t":"Cell Plate",
+      "c":"Cell Cycle",
+      "d":"Structure in plant cells that forms a new cell wall during division."
+   },
+   {
+      "t":"Cell Signaling",
+      "c":"Cell Functions",
+      "d":"Communication between cells."
+   },
+   {
+      "t":"Cell theory",
+      "c":"Cell Biology",
+      "d":"The foundational idea that all living things are composed of one or more cells."
+   },
+   {
+      "t":"Cell wall",
+      "c":"Cell Biology",
+      "d":"A rigid outer layer found beyond the cell membrane in plants, fungi, and most prokaryotes, providing structural support."
+   },
+   {
+      "t":"Cellular Communication",
+      "c":"Cell Functions",
+      "d":"Exchange of information between cells."
+   },
+   {
+      "t":"Cellular Differentiation",
+      "c":"Cell Functions",
+      "d":"Cells become specialized for functions."
+   },
+   {
+      "t":"Cellular Respiration",
+      "c":"Cell Functions",
+      "d":"Breakdown of glucose to produce energy."
+   },
+   {
+      "t":"Central dogma of molecular biology",
+      "c":"Genetics",
+      "d":"The principle describing how genetic information generally flows within a cell — often summarized as 'DNA makes RNA, and RNA makes protein.'"
+   },
+   {
+      "t":"Centromere",
+      "c":"Cell Cycle",
+      "d":"Region where sister chromatids are joined."
+   },
+   {
+      "t":"Centrosome",
+      "c":"Cell Cycle",
+      "d":"Organizing center for spindle fibers."
+   },
+   {
+      "t":"Checkpoint",
+      "c":"Cell Cycle",
+      "d":"Control point in the cell cycle to ensure accuracy."
+   },
+   {
+      "t":"Checkpoint Protein",
+      "c":"Cell Cycle",
+      "d":"Protein controlling cycle progression."
+   },
+   {
+      "t":"Chlorophyll",
+      "c":"Botany",
+      "d":"The green pigment in plants, algae, and cyanobacteria that captures light energy to drive photosynthesis."
+   },
+   {
+      "t":"Chloroplast",
+      "c":"Cell Biology",
+      "d":"The specialized organelle in plant and algal cells where photosynthesis takes place."
+   },
+   {
+      "t":"Chromatid",
+      "c":"Cell Cycle",
+      "d":"One-half of a duplicated chromosome."
+   },
+   {
+      "t":"Chromatin",
+      "c":"Cell Cycle",
+      "d":"DNA-protein complex that condenses into chromosomes."
+   },
+   {
+      "t":"Chromosome",
+      "c":"Genetics",
+      "d":"A tightly coiled strand of DNA found in the cell nucleus that carries an organism's genes in linear order."
+   },
+   {
+      "t":"Citric acid cycle",
+      "c":"Biochemistry",
+      "d":"Also called the Krebs cycle — a chain of reactions that oxidizes nutrient-derived molecules to release usable chemical energy in nearly all aerobic organisms."
+   },
+   {
+      "t":"Cleavage Furrow",
+      "c":"Cell Cycle",
+      "d":"Indentation in animal cells during cytokinesis."
+   },
+   {
+      "t":"Clonal selection",
+      "c":"Immunology",
+      "d":"The theory explaining how immune cells multiply in response to a specific invading antigen, forming the basis of the adaptive immune response."
+   },
+   {
+      "t":"Conservation biology",
+      "c":"Ecology",
+      "d":"The study of Earth's biodiversity aimed at protecting species, habitats, and ecosystems from extinction and degradation."
+   },
+   {
+      "t":"Convergent evolution",
+      "c":"Evolution",
+      "d":"The independent evolution of similar traits in unrelated species, often because they face similar environmental pressures."
+   },
+   {
+      "t":"Crossing Over",
+      "c":"Cell Cycle",
+      "d":"Exchange of genetic material between homologous chromosomes."
+   },
+   {
+      "t":"Cyclin",
+      "c":"Cell Cycle",
+      "d":"Protein that regulates the cell cycle."
+   },
+   {
+      "t":"Cyclin-dependent Kinase (CDK)",
+      "c":"Cell Cycle",
+      "d":"Enzyme activated by cyclin for cycle control."
+   },
+   {
+      "t":"Cytokinesis",
+      "c":"Cell Cycle",
+      "d":"Division of the cytoplasm into two daughter cells."
+   },
+   {
+      "t":"Cytoplasm",
+      "c":"Cell Biology",
+      "d":"Everything inside a cell's membrane except the nucleus — a gel-like fluid holding the organelles and dissolved molecules."
+   },
+   {
+      "t":"Cytoskeleton",
+      "c":"Cell Biology",
+      "d":"A dynamic internal scaffold of protein filaments that gives a cell its shape and enables movement and internal transport."
+   },
+   {
+      "t":"Darwinian fitness",
+      "c":"Evolution",
+      "d":"A measure of an organism's genetic contribution to the next generation, typically judged by how many offspring survive to reproduce."
+   },
+   {
+      "t":"Decomposer",
+      "c":"Ecology",
+      "d":"An organism, such as many fungi and bacteria, that breaks down dead organic material and recycles its nutrients back into the ecosystem."
+   },
+   {
+      "t":"Denaturation",
+      "c":"Biochemistry",
+      "d":"The unfolding or structural collapse of a protein or nucleic acid, often triggered by heat, extreme pH, or harsh chemicals."
+   },
+   {
+      "t":"Deoxyribonucleic acid (DNA)",
+      "c":"Genetics",
+      "d":"The double-stranded molecule that stores hereditary information in nearly all living organisms, built from four repeating chemical letters: A, C, G, and T."
+   },
+   {
+      "t":"Developmental biology",
+      "c":"Cell Biology",
+      "d":"The study of how organisms grow, develop, and change from a single fertilized cell into a mature form."
+   },
+   {
+      "t":"Diffusion",
+      "c":"Cell Functions",
+      "d":"Movement of molecules from high to low concentration."
+   },
+   {
+      "t":"Diploid",
+      "c":"Cell Cycle",
+      "d":"Having two sets of chromosomes (2n)."
+   },
+   {
+      "t":"DNA",
+      "c":"Classification of Cells",
+      "d":"Genetic material of organisms."
+   },
+   {
+      "t":"DNA Polymerase",
+      "c":"Cell Cycle",
+      "d":"Enzyme that adds nucleotides to replicate DNA."
+   },
+   {
+      "t":"DNA Replication",
+      "c":"Cell Cycle",
+      "d":"Process of making an identical copy of DNA."
+   },
+   {
+      "t":"Ecology",
+      "c":"Ecology",
+      "d":"The scientific study of how organisms interact with each other and with their physical environment."
+   },
+   {
+      "t":"Ecosystem",
+      "c":"Ecology",
+      "d":"A community of living organisms interacting with the non-living parts of their environment as a single functioning system."
+   },
+   {
+      "t":"Ectotherm",
+      "c":"Physiology",
+      "d":"An organism, often called 'cold-blooded,' whose body temperature is largely set by its surrounding environment rather than internal heat production. Contrast endotherm."
+   },
+   {
+      "t":"Electron transport chain",
+      "c":"Biochemistry",
+      "d":"A series of protein complexes in the mitochondria that pass electrons along a chain to power the production of ATP, the cell's main energy currency."
+   },
+   {
+      "t":"Embryo",
+      "c":"Developmental Biology",
+      "d":"The early developmental stage of a multicellular organism, beginning shortly after fertilization."
+   },
+   {
+      "t":"Endangered species",
+      "c":"Ecology",
+      "d":"A species at serious risk of extinction, often due to habitat loss, hunting, disease, or climate change."
+   },
+   {
+      "t":"Endemism",
+      "c":"Ecology",
+      "d":"The condition of a species being found naturally in only one specific geographic area and nowhere else."
+   },
+   {
+      "t":"Endocrine system",
+      "c":"Physiology",
+      "d":"The network of glands that release hormones directly into the bloodstream to regulate growth, metabolism, and other body functions."
+   },
+   {
+      "t":"Endocytosis",
+      "c":"Cell Functions",
+      "d":"Process of taking materials into the cell."
+   },
+   {
+      "t":"Endoplasmic Reticulum",
+      "c":"Classification of Cells",
+      "d":"Network for protein and lipid synthesis."
+   },
+   {
+      "t":"Endosymbiotic theory",
+      "c":"Evolution",
+      "d":"The theory that mitochondria and chloroplasts originated as free-living prokaryotes engulfed by an ancestral cell, eventually becoming permanent internal partners."
+   },
+   {
+      "t":"Endotherm",
+      "c":"Physiology",
+      "d":"An organism, often called 'warm-blooded,' that generates and regulates its own internal body heat regardless of the surrounding temperature. Contrast ectotherm."
+   },
+   {
+      "t":"Entomology",
+      "c":"Zoology",
+      "d":"The scientific study of insects."
+   },
+   {
+      "t":"Enzyme",
+      "c":"Biochemistry",
+      "d":"A protein that speeds up chemical reactions inside cells without itself being consumed, making metabolism fast enough to sustain life."
+   },
+   {
+      "t":"Epidemiology",
+      "c":"Ecology",
+      "d":"The study of how diseases spread through populations, including their causes, patterns, and prevention."
+   },
+   {
+      "t":"Epigenetics",
+      "c":"Genetics",
+      "d":"The study of heritable changes in how genes are expressed that occur without any change to the underlying DNA sequence itself."
+   },
+   {
+      "t":"Eukaryote",
+      "c":"Cell Biology",
+      "d":"An organism whose cells contain a true, membrane-bound nucleus — includes all animals, plants, fungi, and protists. Contrast prokaryote."
+   },
+   {
+      "t":"Evolution",
+      "c":"Evolution",
+      "d":"The change in heritable traits of a population across successive generations, driven by mechanisms such as mutation, gene flow, natural selection, and genetic drift."
+   },
+   {
+      "t":"Exocytosis",
+      "c":"Cell Biology",
+      "d":"The process by which a cell expels molecules to its exterior by fusing a membrane-bound sac with the cell membrane."
+   },
+   {
+      "t":"Extinction",
+      "c":"Evolution",
+      "d":"The permanent disappearance of an entire species or other group of organisms, marked by the death of its last surviving individual."
+   },
+   {
+      "t":"Extracellular Matrix",
+      "c":"Cell Functions",
+      "d":"Network outside cells for support."
+   },
+   {
+      "t":"Facilitated Diffusion",
+      "c":"Cell Functions",
+      "d":"Diffusion through channel proteins."
+   },
+   {
+      "t":"Fermentation",
+      "c":"Biochemistry",
+      "d":"A metabolic process that breaks down sugar for energy without requiring oxygen."
+   },
+   {
+      "t":"Fertilization",
+      "c":"Cell Cycle",
+      "d":"Union of egg and sperm."
+   },
+   {
+      "t":"Fitness landscape",
+      "c":"Evolution",
+      "d":"A conceptual map relating genetic variation to reproductive success, used to visualize how populations evolve toward more favorable traits over time."
+   },
+   {
+      "t":"Flagellum",
+      "c":"Classification of Cells",
+      "d":"Tail-like structure for movement."
+   },
+   {
+      "t":"Founder effect",
+      "c":"Evolution",
+      "d":"The loss of genetic diversity that occurs when a new population is established by only a small number of founding individuals."
+   },
+   {
+      "t":"Fungi",
+      "c":"Classification of Cells",
+      "d":"Eukaryotic kingdom with chitin cell walls."
+   },
+   {
+      "t":"G0 Phase",
+      "c":"Cell Cycle",
+      "d":"Resting phase where cells stop dividing."
+   },
+   {
+      "t":"G1 Phase",
+      "c":"Cell Cycle",
+      "d":"Part of interphase where the cell grows and performs normal functions."
+   },
+   {
+      "t":"G2 Phase",
+      "c":"Cell Cycle",
+      "d":"Final phase of interphase; cell prepares for mitosis."
+   },
+   {
+      "t":"Gamete",
+      "c":"Genetics",
+      "d":"A reproductive cell — such as a sperm or egg — that carries half the genetic material needed to form a new offspring when it fuses with another gamete."
+   },
+   {
+      "t":"Gametes",
+      "c":"Cell Cycle",
+      "d":"Sex cells (egg and sperm)."
+   },
+   {
+      "t":"Gene",
+      "c":"Genetics",
+      "d":"A segment of DNA that carries the instructions to build a specific RNA or protein product, and the basic hereditary unit passed from parent to offspring."
+   },
+   {
+      "t":"Gene Expression",
+      "c":"Cell Functions",
+      "d":"Conversion of DNA information into traits."
+   },
+   {
+      "t":"Gene pool",
+      "c":"Genetics",
+      "d":"The complete collection of genes and their variants present within a population or species."
+   },
+   {
+      "t":"Genetic drift",
+      "c":"Evolution",
+      "d":"Random chance-driven changes in how common a particular gene variant is within a population, unrelated to whether that variant is helpful or harmful."
+   },
+   {
+      "t":"Genetics",
+      "c":"Genetics",
+      "d":"The scientific study of heredity and how traits are passed from one generation to the next."
+   },
+   {
+      "t":"Genome",
+      "c":"Genetics",
+      "d":"The complete set of genetic material contained within an organism's cells."
+   },
+   {
+      "t":"Genotype",
+      "c":"Genetics",
+      "d":"The specific genetic makeup of an organism that underlies and helps determine its observable traits, or phenotype."
+   },
+   {
+      "t":"Golgi Apparatus",
+      "c":"Classification of Cells",
+      "d":"Modifies and packages proteins."
+   },
+   {
+      "t":"Growth Factor",
+      "c":"Cell Cycle",
+      "d":"Signal that stimulates cell division."
+   },
+   {
+      "t":"Habitat",
+      "c":"Ecology",
+      "d":"The natural physical environment in which a particular organism typically lives and thrives."
+   },
+   {
+      "t":"Haploid",
+      "c":"Cell Cycle",
+      "d":"Having one set of chromosomes (n)."
+   },
+   {
+      "t":"Helicase",
+      "c":"Cell Cycle",
+      "d":"Enzyme that unwinds the DNA strand."
+   },
+   {
+      "t":"Heredity",
+      "c":"Genetics",
+      "d":"The passing of traits from parents to offspring, occurring through either sexual or asexual reproduction."
+   },
+   {
+      "t":"Heterotroph",
+      "c":"Ecology",
+      "d":"An organism that cannot make its own food and must consume other organisms or organic matter for energy. Contrast autotroph."
+   },
+   {
+      "t":"Homeostasis",
+      "c":"Physiology",
+      "d":"An organism's ability to maintain a stable internal environment — such as temperature or pH — despite changes in outside conditions."
+   },
+   {
+      "t":"Homologous Chromosomes",
+      "c":"Cell Cycle",
+      "d":"Pair of chromosomes with the same genes."
+   },
+   {
+      "t":"Hormone",
+      "c":"Physiology",
+      "d":"A signaling molecule, produced by a gland, that travels through the bloodstream to regulate the activity of distant organs and tissues."
+   },
+   {
+      "t":"Host Cell",
+      "c":"Classification of Cells",
+      "d":"Cell infected by a microorganism."
+   },
+   {
+      "t":"Hypertonic Solution",
+      "c":"Cell Functions",
+      "d":"Solution with higher solute concentration."
+   },
+   {
+      "t":"Hypotonic Solution",
+      "c":"Cell Functions",
+      "d":"Solution with lower solute concentration."
+   },
+   {
+      "t":"Independent Assortment",
+      "c":"Cell Cycle",
+      "d":"Random distribution of chromosomes in meiosis."
+   },
+   {
+      "t":"Interphase",
+      "c":"Cell Cycle",
+      "d":"Longest phase of the cell cycle where the cell grows and replicates DNA."
+   },
+   {
+      "t":"Invertebrate",
+      "c":"Zoology",
+      "d":"An animal that lacks a backbone, a category that includes insects, mollusks, and worms among many others. Contrast vertebrate."
+   },
+   {
+      "t":"Ion Channel",
+      "c":"Cell Functions",
+      "d":"Protein allowing ions to pass through membranes."
+   },
+   {
+      "t":"Isotonic Solution",
+      "c":"Cell Functions",
+      "d":"Solution with equal solute concentration."
+   },
+   {
+      "t":"Kinetochore",
+      "c":"Cell Cycle",
+      "d":"Protein complex where spindle fibers attach."
+   },
+   {
+      "t":"Kingdom",
+      "c":"Classification of Cells",
+      "d":"Highest classification of organisms."
+   },
+   {
+      "t":"Larva",
+      "c":"Zoology",
+      "d":"A distinct juvenile stage that many animals — such as insects and amphibians — pass through before metamorphosing into their adult form."
+   },
+   {
+      "t":"Life cycle",
+      "c":"Developmental Biology",
+      "d":"The full sequence of developmental stages an organism passes through, from formation to reproduction and eventually to the birth of the next generation."
+   },
+   {
+      "t":"Lysosome",
+      "c":"Cell Functions",
+      "d":"Contains enzymes for digestion."
+   },
+   {
+      "t":"Macroevolution",
+      "c":"Evolution",
+      "d":"Large-scale evolutionary change occurring at or above the level of species, in contrast with the smaller, generation-to-generation shifts studied in microevolution."
+   },
+   {
+      "t":"Meiosis",
+      "c":"Cell Biology",
+      "d":"A specialized form of cell division that halves the chromosome number to produce genetically unique reproductive cells, such as eggs and sperm."
+   },
+   {
+      "t":"Membrane Transport",
+      "c":"Cell Functions",
+      "d":"Movement of substances across the cell membrane."
+   },
+   {
+      "t":"Metabolism",
+      "c":"Biochemistry",
+      "d":"The full set of chemical reactions within an organism that convert food into energy and building blocks for growth, repair, and function."
+   },
+   {
+      "t":"Metamorphosis",
+      "c":"Zoology",
+      "d":"A dramatic physical transformation an organism undergoes during development, such as a caterpillar becoming a butterfly."
+   },
+   {
+      "t":"Metaphase",
+      "c":"Cell Cycle",
+      "d":"Chromosomes line up at the cell's equatorial plane."
+   },
+   {
+      "t":"Metastasis",
+      "c":"Cell Cycle",
+      "d":"Spread of cancer cells to other body parts."
+   },
+   {
+      "t":"Microbiology",
+      "c":"Microbiology",
+      "d":"The branch of biology devoted to studying microscopic organisms, including bacteria, viruses, fungi, and protozoa."
+   },
+   {
+      "t":"Microorganism",
+      "c":"Classification of Cells",
+      "d":"Extremely small living organism."
+   },
+   {
+      "t":"Mitochondria",
+      "c":"Cell Biology",
+      "d":"The organelle often called the cell's 'powerhouse,' where aerobic respiration generates most of a cell's usable energy."
+   },
+   {
+      "t":"Mitochondrion",
+      "c":"Cell Functions",
+      "d":"Organelle that produces ATP."
+   },
+   {
+      "t":"Mitosis",
+      "c":"Cell Biology",
+      "d":"The stage of the cell cycle in which a cell's duplicated chromosomes separate into two identical nuclei, ultimately producing two genetically identical daughter cells."
+   },
+   {
+      "t":"Mitotic Phase",
+      "c":"Cell Cycle",
+      "d":"Period of cell division that includes mitosis and cytokinesis."
+   },
+   {
+      "t":"Molecular biology",
+      "c":"Genetics",
+      "d":"The branch of biology concerned with the molecular basis of biological activity, particularly the structure and function of DNA, RNA, and proteins."
+   },
+   {
+      "t":"Monera",
+      "c":"Classification of Cells",
+      "d":"Kingdom of unicellular prokaryotes."
+   },
+   {
+      "t":"Multicellular",
+      "c":"Classification of Cells",
+      "d":"Made up of many cells working together."
+   },
+   {
+      "t":"Mutation",
+      "c":"Genetics",
+      "d":"A change in a DNA sequence, which can arise spontaneously or from exposure to certain chemicals or radiation, and can be neutral, harmful, or beneficial."
+   },
+   {
+      "t":"Mycology",
+      "c":"Botany",
+      "d":"The scientific study of fungi, including their genetics, classification, and uses."
+   },
+   {
+      "t":"Natural selection",
+      "c":"Evolution",
+      "d":"The process by which organisms with traits better suited to their environment tend to survive and reproduce more successfully, passing those traits on more often."
+   },
+   {
+      "t":"Neuron",
+      "c":"Physiology",
+      "d":"A specialized, electrically excitable cell that receives, processes, and transmits information via electrical and chemical signals."
+   },
+   {
+      "t":"Niche",
+      "c":"Ecology",
+      "d":"The specific role and set of resource needs an organism occupies within its ecosystem, including how it feeds, shelters, and reproduces."
+   },
+   {
+      "t":"Nitrogen fixation",
+      "c":"Ecology",
+      "d":"The natural process, largely carried out by specialized microorganisms, that converts atmospheric nitrogen gas into forms usable by living organisms."
+   },
+   {
+      "t":"Nuclear Envelope",
+      "c":"Cell Cycle",
+      "d":"Membrane around the nucleus that breaks during prophase."
+   },
+   {
+      "t":"Nucleic acid",
+      "c":"Biochemistry",
+      "d":"A large biomolecule — DNA or RNA — built from repeating nucleotide units, essential for storing and transmitting genetic information."
+   },
+   {
+      "t":"Nucleoid",
+      "c":"Classification of Cells",
+      "d":"Region in prokaryotes containing DNA."
+   },
+   {
+      "t":"Nucleus",
+      "c":"Cell Biology",
+      "d":"The membrane-bound structure in eukaryotic cells that houses the cell's genetic material and directs its activities."
+   },
+   {
+      "t":"Organ",
+      "c":"Classification of Cells",
+      "d":"Structure composed of tissues working together."
+   },
+   {
+      "t":"Organelle",
+      "c":"Cell Biology",
+      "d":"A specialized structure within a cell that performs a specific function, such as the mitochondria or chloroplast."
+   },
+   {
+      "t":"Organelle Membrane",
+      "c":"Classification of Cells",
+      "d":"Surrounds cell structures."
+   },
+   {
+      "t":"Organism",
+      "c":"Ecology",
+      "d":"Any individual living thing, capable of carrying out the processes associated with life."
+   },
+   {
+      "t":"Osmosis",
+      "c":"Cell Biology",
+      "d":"The passive movement of water across a semipermeable membrane, from an area of lower solute concentration to one of higher concentration."
+   },
+   {
+      "t":"Paleontology",
+      "c":"Evolution",
+      "d":"The scientific study of ancient life through the examination of fossils preserved in Earth's crust."
+   },
+   {
+      "t":"Parasite",
+      "c":"Ecology",
+      "d":"An organism that lives on or inside a host organism, drawing nutrients from it, typically to the host's detriment."
+   },
+   {
+      "t":"Passive Transport",
+      "c":"Cell Functions",
+      "d":"Movement of substances without energy."
+   },
+   {
+      "t":"Pathogen",
+      "c":"Microbiology",
+      "d":"Any agent, such as a virus, bacterium, or fungus, capable of causing disease in a host organism."
+   },
+   {
+      "t":"Peroxisome",
+      "c":"Cell Functions",
+      "d":"Breaks down fatty acids and detoxifies."
+   },
+   {
+      "t":"Phagocytosis",
+      "c":"Cell Functions",
+      "d":"Type of endocytosis where the cell engulfs solid particles."
+   },
+   {
+      "t":"Phenotype",
+      "c":"Genetics",
+      "d":"The observable physical, biochemical, or behavioral traits of an organism, produced by the interaction of its genotype with the environment."
+   },
+   {
+      "t":"Photosynthesis",
+      "c":"Botany",
+      "d":"The process by which plants, algae, and some bacteria convert light energy into chemical energy, producing sugars from carbon dioxide and water while releasing oxygen."
+   },
+   {
+      "t":"Phylogeny",
+      "c":"Evolution",
+      "d":"The evolutionary history and relatedness of a group of organisms, often represented as a branching tree diagram."
+   },
+   {
+      "t":"Physiology",
+      "c":"Physiology",
+      "d":"The branch of biology studying how living organisms and their parts function, including all their physical and chemical processes."
+   },
+   {
+      "t":"Pili",
+      "c":"Classification of Cells",
+      "d":"Hair-like structures on bacteria for attachment."
+   },
+   {
+      "t":"Pinocytosis",
+      "c":"Cell Functions",
+      "d":"âCell drinkingâ; uptake of liquid."
+   },
+   {
+      "t":"Plantae",
+      "c":"Classification of Cells",
+      "d":"Kingdom of multicellular, photosynthetic eukaryotes."
+   },
+   {
+      "t":"Plasma Membrane",
+      "c":"Classification of Cells",
+      "d":"Regulates what enters and exits the cell."
+   },
+   {
+      "t":"Pollination",
+      "c":"Botany",
+      "d":"The transfer of pollen from the male to the female part of a flower, a necessary step toward plant fertilization and seed production."
+   },
+   {
+      "t":"Population",
+      "c":"Ecology",
+      "d":"A group of organisms of the same species living in the same geographic area and capable of interbreeding with one another."
+   },
+   {
+      "t":"Predation",
+      "c":"Ecology",
+      "d":"An interaction in which one organism, the predator, hunts and consumes another, the prey."
+   },
+   {
+      "t":"Prokaryote",
+      "c":"Cell Biology",
+      "d":"An organism, such as a bacterium, whose cells lack a membrane-bound nucleus. Contrast eukaryote."
+   },
+   {
+      "t":"Prophase",
+      "c":"Cell Cycle",
+      "d":"Chromosomes condense and spindle fibers begin to form."
+   },
+   {
+      "t":"Protein",
+      "c":"Biochemistry",
+      "d":"A large molecule built from chains of amino acids, serving as a structural component, enzyme, signaling molecule, or transporter within a cell."
+   },
+   {
+      "t":"Protein Synthesis",
+      "c":"Cell Functions",
+      "d":"Making proteins from DNA instructions."
+   },
+   {
+      "t":"Protista",
+      "c":"Classification of Cells",
+      "d":"Kingdom of mostly unicellular eukaryotes."
+   },
+   {
+      "t":"Receptor Protein",
+      "c":"Cell Functions",
+      "d":"Detects and responds to chemical signals."
+   },
+   {
+      "t":"Recombinant Chromosomes",
+      "c":"Cell Cycle",
+      "d":"Chromosomes formed after crossing over."
+   },
+   {
+      "t":"Respiration",
+      "c":"Classification of Cells",
+      "d":"Process of breaking down glucose for energy."
+   },
+   {
+      "t":"Ribonucleic acid (RNA)",
+      "c":"Genetics",
+      "d":"A nucleic acid that carries out several roles in gene expression, including copying genetic instructions from DNA and helping build proteins."
+   },
+   {
+      "t":"Ribosome",
+      "c":"Cell Functions",
+      "d":"Organelle responsible for making proteins."
+   },
+   {
+      "t":"Ribosomes",
+      "c":"Classification of Cells",
+      "d":"Site of protein synthesis."
+   },
+   {
+      "t":"RNA",
+      "c":"Classification of Cells",
+      "d":"Molecule for protein synthesis."
+   },
+   {
+      "t":"S Phase",
+      "c":"Cell Cycle",
+      "d":"DNA replication phase of the cell cycle."
+   },
+   {
+      "t":"Selective Permeability",
+      "c":"Cell Functions",
+      "d":"Ability of the membrane to choose what enters/exits."
+   },
+   {
+      "t":"Signal Transduction",
+      "c":"Cell Functions",
+      "d":"Process of converting signals into cellular responses."
+   },
+   {
+      "t":"Sister Chromatids",
+      "c":"Cell Cycle",
+      "d":"Identical copies of a chromosome."
+   },
+   {
+      "t":"Sodium-Potassium Pump",
+      "c":"Cell Functions",
+      "d":"Active transport protein moving Naâº and Kâº."
+   },
+   {
+      "t":"Somatic Cells",
+      "c":"Cell Cycle",
+      "d":"Body cells that undergo mitosis."
+   },
+   {
+      "t":"Species",
+      "c":"Taxonomy",
+      "d":"A group of organisms capable of interbreeding and producing fertile offspring, generally treated as the basic unit of biological classification."
+   },
+   {
+      "t":"Spindle Fibers",
+      "c":"Cell Cycle",
+      "d":"Protein structures that move chromosomes during mitosis."
+   },
+   {
+      "t":"Stem Cell",
+      "c":"Cell Functions",
+      "d":"Undifferentiated cell that can develop into specialized cells."
+   },
+   {
+      "t":"Substrate",
+      "c":"Cell Functions",
+      "d":"Molecule on which an enzyme acts."
+   },
+   {
+      "t":"Symbiosis",
+      "c":"Ecology",
+      "d":"A close, long-term biological interaction between two different species, which may benefit both, benefit one while harming the other, or benefit one without affecting the other."
+   },
+   {
+      "t":"Synapsis",
+      "c":"Cell Cycle",
+      "d":"Pairing of homologous chromosomes in meiosis."
+   },
+   {
+      "t":"Taxonomy",
+      "c":"Taxonomy",
+      "d":"The scientific practice of naming, describing, and classifying organisms into a structured hierarchy of groups."
+   },
+   {
+      "t":"Telomere",
+      "c":"Cell Cycle",
+      "d":"Protective chromosome end caps."
+   },
+   {
+      "t":"Telophase",
+      "c":"Cell Cycle",
+      "d":"Nuclear envelope re-forms around chromosomes."
+   },
+   {
+      "t":"Tetrad",
+      "c":"Cell Cycle",
+      "d":"Group of four chromatids formed during meiosis."
+   },
+   {
+      "t":"Tissue",
+      "c":"Classification of Cells",
+      "d":"Group of similar cells performing a function."
+   },
+   {
+      "t":"Transcription",
+      "c":"Cell Functions",
+      "d":"Process of copying DNA into mRNA."
+   },
+   {
+      "t":"Translation",
+      "c":"Cell Functions",
+      "d":"mRNA is decoded to create proteins."
+   },
+   {
+      "t":"Trophic level",
+      "c":"Ecology",
+      "d":"An organism's position in a food chain, such as producer, primary consumer, or top predator, reflecting how energy flows through an ecosystem."
+   },
+   {
+      "t":"Tumor",
+      "c":"Cell Cycle",
+      "d":"Mass of uncontrolled dividing cells."
+   },
+   {
+      "t":"Unicellular",
+      "c":"Classification of Cells",
+      "d":"Organism made of one cell."
+   },
+   {
+      "t":"Vaccine",
+      "c":"Classification of Cells",
+      "d":"Prepares the immune system to fight pathogens."
+   },
+   {
+      "t":"Vacuole",
+      "c":"Cell Functions",
+      "d":"Storage organelle for water and nutrients."
+   },
+   {
+      "t":"Vertebrate",
+      "c":"Zoology",
+      "d":"An animal possessing a backbone, a group that includes fish, amphibians, reptiles, birds, and mammals. Contrast invertebrate."
+   },
+   {
+      "t":"Virus",
+      "c":"Microbiology",
+      "d":"A microscopic infectious agent that can only replicate inside the living cells of a host organism, existing at the boundary between living and non-living matter."
+   },
+   {
+      "t":"Zoology",
+      "c":"Zoology",
+      "d":"The branch of biology devoted to the study of animals, their behavior, physiology, and classification."
+   }
 ]
