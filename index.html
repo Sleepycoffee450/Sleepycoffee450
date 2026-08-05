@@ -223,7 +223,7 @@
 
 <script type="module">
 const response = await fetch('data.json');
-const TERMS = response.json();
+const TERMS = await response.json();
 
 // build related-term autolinking
 const termIndex = {};
